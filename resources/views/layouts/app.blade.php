@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title') - {{ config('app.name', 'SecNat') }}</title>
+        <title>@yield('title') - {{ config('app.name', 'BlogTest') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -15,10 +15,10 @@
     </head>
     <body>
         <div class="title my-3 text-center">
-            SecNat
+            BlogTest
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <a class="navbar-brand" href="{{ route('index') }}">SecNat</a>
+            <a class="navbar-brand" href="{{ route('index') }}">BlogTest</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

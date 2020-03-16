@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="title m-b-md">
-        SecNat
+        BlogTest
     </div>
 
     <div class="links">
